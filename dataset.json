@@ -1,0 +1,403 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis", "kawan", "min"],
+      "responses": [
+        "Hai! KonsulBot di sini. Mau konsultasi tentang apa nih? Silahkan dipilih ya!! 1. Marketing 2. Sumber Daya Manusia 3. Finance (Keuangan)",
+        "Halo! Saya KonsulBot, salam kenal ya! Mau konsultasi tentang apa nih? Silahkan dipilih ya!! 1. Marketing 2. Sumber Daya Manusia 3. Finance (Keuangan)",
+        "Helo! Ini KonsulBot. Bingung menjalankan bisnis kak? Silahkan bisa konsultasi. Mau konsultasi tentang apa nih? Silahkan dipilih ya!! 1. Marketing 2. Sumber Daya Manusia 3. Finance (Keuangan)"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Dah", "Dadah", "Bye", "Byee", "Good bye", "Selamat tinggal", "Sampai jumpa", "Bai", "See you"],
+      "responses": ["Bye!", "Dadahh!", "Good bye!", "Dahh, semoga harimu menyenangkan yaa!", "Sampai jumpa lagi!", "See u! Senang bisa membantu", "Semoga Sukses", "Byee, Kami Tunggu Kabar Baiknya Kak!"]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak"],
+      "responses": ["Dengan senang hati", "Sama-sama, kami tunggu kabar baiknya kak!", "Kembali kasih, semoga membantu", "Sama-sama, semoga harimu menyenangkan"]
+    },
+    {
+      "tag": "opsi_pertanyaan",
+      "patterns": ["1", "1.", "1. Marketing", "Marketing", "1 min", "1 bro", "1 kak", "Marketing kak", "Marketing min", "Marketing bro", "1. Marketing kak", "1. Marketing bro", "1. Marketing min"],
+      "responses": [
+        "Apa yang ingin dikonsultasikan tentang marketing di bisnis anda?",
+        "Silahkan kak, bisa disampaikan apa yang ingin dikonsultasikan tentang marketing bisnis anda!",
+        "Ada yang bisa kami bantu memberikan saran tentang permasalahan marketing bisnis anda?"
+      ]
+    },
+    {
+      "tag": "opsi_pertanyaan_2",
+      "patterns": [
+        "2",
+        "2.",
+        "2. Sumber Daya Manusia",
+        "Sumber Daya Manusia",
+        "2 min",
+        "2 bro",
+        "2 kak",
+        "Sumber Daya Manusia kak",
+        "Sumber Daya Manusia min",
+        "Sumber Daya Manusia bro",
+        "SDM",
+        "SDM kak",
+        "SDM min",
+        "SDM bro",
+        "2. SDM",
+        "2. SDM kak",
+        "2. SDM min"
+      ],
+      "responses": [
+        "Apa yang ingin dikonsultasikan tentang SDM di bisnis anda?",
+        "Silahkan kak, bisa disampaikan apa yang ingin dikonsultasikan tentang SDM bisnis anda!",
+        "Ada yang bisa kami bantu memberikan saran tentang permasalahan SDM bisnis anda?"
+      ]
+    },
+    {
+      "tag": "opsi_pertanyaan_3",
+      "patterns": [
+        "3",
+        "3.",
+        "3. Keuangan",
+        "Keuangan",
+        "3 min",
+        "3 bro",
+        "3 kak",
+        "Keuangan kak",
+        "Keuangan min",
+        "Keuangan bro",
+        "3. Keuangan kak",
+        "3. Keuangan bro",
+        "3. Keuangan min",
+        "Finance",
+        "Finance min",
+        "Finance kak",
+        "3. Finance",
+        "Finance bro"
+      ],
+      "responses": [
+        "Apa yang ingin dikonsultasikan tentang Keuangan di bisnis anda?",
+        "Silahkan kak, bisa disampaikan apa yang ingin dikonsultasikan tentang Keuangan bisnis anda!",
+        "Ada yang bisa kami bantu memberikan saran tentang permasalahan Keuangan bisnis anda?"
+      ]
+    },
+    {
+      "tag": "marketing_1",
+      "patterns": [
+        "Bagaimana cara meningkatkan penjualan?",
+        "Teknik meningkatkan penjualan",
+        "Bagaimana cara meningkatkan prospek penjualan?",
+        "cara meningkatkan penjualan",
+        "Bagaimana meningkatkan penjualan produk?",
+        "Bagaimana cara meningkatkan penjualan produk?"
+      ],
+      "responses": [
+        "Ada beberapa teknik marketing untuk meningkatkan penjualan, diantaranya adalah Ketahui Target Pasar Anda, Tetapkan Harga Produk secara Tepat, Pilihlah Tempat yang Strategis, Lakukan Teknik Pemasaran Mulut ke Mulut, Gunakan Sosial Media, Diskon untuk Konsumen, Ciptakan Hubungan Baik dengan Pelanggan"
+      ]
+    },
+    {
+      "tag": "marketing_2",
+      "patterns": ["Strategi marketing di sosial media", "Bagaimana strategi marketing di sosial media?", "Marketing di sosial media", "Marketing yang baik di sosial media"],
+      "responses": [
+        "Ada beberapa hal yang menurut KonsulBot perlu kamu lakukan agar strategi social media marketing-mu berhasil yaitu : Riset persona pembeli, Tentukan media sosial yang akan digunakan, Buat konten yang unik dan menarik, Atur jadwal untuk setiap unggahan, Analisis hasil dari setiap unggahan"
+      ]
+    },
+    {
+      "tag": "marketing_3",
+      "patterns": ["Bagaimana cara marketing untuk pemula?", "Marketing untuk pebisnis baru", "cara marketing bisnis pemula", "Bagaimana cara marketing untuk pebisnis baru?"],
+      "responses": [
+        "Ada beberapa trik marketing nih dari KonsulBot untuk usaha yang masih baru. Berikut trik marketing dari KonsulBot : Membangun Brand yang Kuat, Membuat Logo yang Menarik, Menulis Konten Sebagai Strategi Marketing, Gunakan Facebook Ads, Google Ads, ataupun IG Ads, Lakukan Riset Pasar, Manfaatkan Media Sosial, Strategi Marketing Penting!, Membuat Website yang Menarik, Mengikuti Pameran atau Bazaar, Memberikan Diskon atau Hadiah untuk Pelanggan, Bergabung dengan Forum-Forum Pengusaha, Selalu Evaluasi Bisnis dan Strategi Marketing Anda"
+      ]
+    },
+    {
+      "tag": "marketing_4",
+      "patterns": ["Cara membuat branding produk?", "Bagaimana cara branding produk?", "Branding Produk", "Cara membuat brand yang menarik", "Bagaimana cara membuat brand yang menarik?"],
+      "responses": [
+        "Ada beberapa tips dari KonsulBot nih tentang Cara Branding produk yang Menarik dan Cepat Diingat Konsumen. Tipsnya adalah Pilih nama brand yang singkat dan mudah diucapkan, Tentukan diferensiasi (ciri khas) produk, Brand dan Logo merupakan cerminan produk, Pasang iklan, Ikut serta dalam pameran, bazaar, atau event lainnya"
+      ]
+    },
+    {
+      "tag": "marketing_5",
+      "patterns": ["Apakah branding produk penting?", "Pentingnya branding produk", "Apakah branding produk penting untuk para pebisnis?"],
+      "responses": [
+        "Branding selalu menjadi bagian penting dari bisnis, terlebih lagi dengan hadirnya media sosial. Brand baru mungkin muncul setiap hari sehingga kekuatan dari brand menjadi lebih penting agar sebuah bisnis dapat bertahan."
+      ]
+    },
+    {
+      "tag": "marketing_6",
+      "patterns": ["perlukah melakukan marketing di Ads?", "Apakah perlu menggunakan IG Ads, FB Ads, ataupun Google Ads?", "Marketing menggunakan Ads apakah diperlukan?"],
+      "responses": [
+        "Dalam proses mewujudkan tujuan bisnis di era pemasaran digital, setiap marketer berupaya menggunakan berbagai macam cara demi mendatangkan arus pengunjung (traffic) menuju suatu website atau landing page milik brand atau bisnis. Tentunya dalam menerapkan digital marketing strategy ini harus didukung dengan penggunaan platform khusus atau perangkat tertentu, yang bisa menunjang aktivitas digital marketing. Salah satu perangkat yang bisa dicoba dan telah sering digunakan oleh para marketer dalam mengoptimalkan website, selain menggunakan SEO, adalah Google Ads, IG Ads, ataupun Facebook Ads."
+      ]
+    },
+    {
+      "tag": "marketing_7",
+      "patterns": ["Apakah saat ini digital marketing perlu untuk perusahaan?", "digital marketing penting untuk perusahaan?", "digital marketing cocok untuk perusahaan pada zaman ini?"],
+      "responses": [
+        "Tentu penting, karena di era sekarang sudah banyak perusahaan yang menggunakan via marketing online. Jika perusahaan tidak mengikuti era pada zaman sekarang bukan tidak mungkin perusahaan akan bangkrut. Jadi saran saya, tetap menggunakan digital marketing di perusahaan anda"
+      ]
+    },
+    {
+      "tag": "marketing_8",
+      "patterns": ["Strategi marketing apa yang paling efektif dalam industri makanan?", "Saya punya bisnis makanan, bagaimana strategi marketing yang tepat?", "Bagaimana cara melakukan pemasaran dalam industri makanan?"],
+      "responses": [
+        "Dalam industri makanan strategi marketing yang paling efektif adalah world of mouth. Sebenarnya tidak hanya bisnis makanan tapi hampir seluruh bisnis. Asalkan produk kamu menjanjikan dan enak, bukan tidak mungkin orang-orang akan melakukan praktik pemasaran WoM. Bahkan WoM, perusahaan tidak mengeluarkan biaya sepersenpun"
+      ]
+    },
+    {
+      "tag": "marketing_9",
+      "patterns": ["Apakah perusahaan memerlukan website untuk sarana marketing?", "Website untuk perusahaan apakah penting?", "Apa pentingnya website perusahaan dalam segi marketing?"],
+      "responses": [
+        "Sangat penting dan diperlukan, Dengan mengunjungi website, pelanggan dapat dengan mudah mengetahui segala hal tentang produk dan merek yang Anda pasarkan. Dengan mengetahui berbagai informasi tersebut, pelanggan dapat segera mengambil keputusan untuk melakukan pembelian jika tertarik, atau mencari produk lain yang mereka butuhkan melalui situs."
+      ]
+    },
+    {
+      "tag": "marketing_10",
+      "patterns": ["Bagaimana menerapkan sistem digital marketing yang baik untuk perusahaan?", "aplikasi dalam penerapan digital marketing di perusahaan?"],
+      "responses": [
+        "Menurut KonsulBot, ada beberapa cara untuk menerapkan sistem digital marketing yang baik dalam perusahaan yaitu menggunakan media sosial dengan tepat, membuat pemasaran konten, menentukan segmentasi pasar, menggunakan pemasaran digital yang tepat, dan berikan pelayanan yang baik terhadap pelanggan yang bertanya melalui sosial media"
+      ]
+    },
+    {
+      "tag": "marketing_11",
+      "patterns": ["Bagaimana seharusnya kampanye marketing dirancang?"],
+      "responses": [
+        "Istilah “kampanye” mungkin sudah tidak lagi sesuai saat ini. Pelanggan dan pembeli saat ini selalu mencari informasi, pengetahuan, dan solusi untuk masalah yang dihadapinya secara online. Marketer yang cerdas akan membuat strategi yang selalu bisa menjawab kebutuhan tersebut. Marketer seharusnya mulai fokus pada strategi marketing yang edukatif dan konten yang sifatnya non-promosi, dan membangun keterlibatan dengan pelanggan. Jangan lupa pula untuk menguji jalur konversi Anda. Analisis apakah strategi marketing yang Anda lakukan mengahsilkan banyak konversi bagi bisnis Anda? Jika tidak Anda mungkin perlu menggunakan strategi yang lain."
+      ]
+    },
+    {
+      "tag": "marketing_12",
+      "patterns": ["Apa kunci strategi digital marketing yang sukses?"],
+      "responses": [
+        "Strategi digital marketing yang tepat selalu menguji apakah konten atau pesan marketing yang dibuatnya sudah tepat. Selain itu, Anda bisa mengubah filter audiens dan parameter penargetan. Elemen visual yang menarik juga merupakan kunci dari strategi digital marketing yang sukses. Yang terakhir ujilah jalur konversi Anda. Menjadi selalu aktiv dan melakukan perbaikan adalah kunci strategi yang sukses."
+      ]
+    },
+    {
+      "tag": "marketing_13",
+      "patterns": ["Bagaimana seharusnya UMKM melakukan kampanye marketing?"],
+      "responses": [
+        "UMKM seringkali begitu putus asa untuk mencapai tujuan penjualan atau prospek, sehingga terlalu fokus pada tahap akhir proses pembelian. Strategi marketing harus sesuai dengan proses pembelian (buyer’s stage). Hal itu berarti Anda perlu membuat banyak konten di tahap awal. Rata-rata untuk setiap pelanggan, ada 100 audiens di tahap awal buyer’s journey. 100 audiens ini adalah orang-orang yang tahu bahwa mereka memiliki masalah tetapi tidak yakin mengenai solusinya. Buatlah konten yang menjelaskan permasalahan mereka tersebut dan mengapa solusi itu penting (belum ada produk). Untuk setiap pembeli, akan ada 10 orang di tahap menengah buyer’s journey. Orang-orang adi tahap ini mencari konten edukasi seputar solusi yang dibutuhkannya. Di tahap ini Anda bisa membuat konten mengenai solusi yang Anda tawarkan serta mengapa Anda lebih baik dibanding kompetitor."
+      ]
+    },
+    {
+      "tag": "marketing_14",
+      "patterns": ["Bagaimana cara optimasi pemasaran lewat teknik SEO?"],
+      "responses": [
+        "Pertanyaan tentang digital marketing sangat berkaitan dengan optimasi SEO agar mudah ditemukan di mesin pencari. Optimasinya bisa dilakukan dengan dua cara, yakni menggunakan teknik on-page maupun off-page sesuai dengan kebutuhan. Kamu bisa mempelajarinya sendiri sambil melakukan praktik langsung untuk melakukan optimasi dengan dua cara di atas. Namun jika tidak ingin repot, bisa menggunakan jasa SEO profesional untuk membantu proses tersebut."
+      ]
+    },
+    {
+      "tag": "marketing_15",
+      "patterns": ["Strategi periklanan online seperti apa yang bisa dicoba?"],
+      "responses": [
+        "Setidaknya ada beberapa opsi yang bisa Kamu gunakan sebagai kanal pemasaran dengan memanfaatkan iklan berbayar. Beberapa di antaranya adalah display ads, PPC ads, affiliate marketing, social media marketing, dan lainnya."
+      ]
+    },
+    {
+      "tag": "sdm_1",
+      "patterns": ["Apakah masalah pengadaan dapat di katakan merupakan cermin utama keberhasilan MSDM?"],
+      "responses": [
+        "pengadaan merupakan cermin keberhasilan dimana karyawan atau tenaga kerjadapat di gantikan oleh karyawan baru yang berkompeten, dengan motivasi baru dansemangat baru dari karyawan baru tersebut. dan juga pemikiran baru dari perusahaanuntuk lebih maju dan disiplin agar perusahaan dapat mencapai tujuannya."
+      ]
+    },
+    {
+      "tag": "sdm_2",
+      "patterns": ["Bagaimana Proses pengadaan karyawan yang baik?"],
+      "responses": ["Proses pengadaan karyawan yang baik di antaranya :• Perencanaan Tenaga Kerja , • Penarikan Tenaga Kerja, • Seleksi Tenaga Kerja, • Penempatan Tenaga Kerja"]
+    },
+    {
+      "tag": "sdm_3",
+      "patterns": ["Apakah pengadaan (procurement) adalah hal yang penting & sulit?"],
+      "responses": [
+        "Menurut KonsulBot, Procurement itu adalah hal yang penting & Sulit yaaa.. Hal tersebut dikarenakan karyawan merupakan asset pertama yang menjadi perencana dan pelaku aktif dari setiap aktifitas organisasi. Mereka mempunyai pikiran, perasaan,keinginan, status, dan latar belakang pendidikan, usia dan jenis kelamin yang heterogenyang dibawa ke dalam organisasi perusahaan. Karyawan bukan mesin, uang, dan materialyang sifatnya pasif dan dapat dikuasai serta diatur sepenuhnya oleh perusahaan.Maka pengadaan karyawan sangat sulit dan rumit diakibatkan oleh keinginan perusahaanuntuk mendapatkan karyawan yang berkualitas dan berkompeten serta penempatankaryawan yang sesuai dengan keahliannya. Agar gairah kerja dan kedisiplinannya akan lebih baik serta efektif menunjang terwujudnya tujuan perusahaan."
+      ]
+    },
+    {
+      "tag": "sdm_4",
+      "patterns": ["Apa saja pokok-pokok bahasan utama dalam pengadaan karyawan?"],
+      "responses": [
+        "Pokok bahasan utama pada fungsi pengadaan adalah proses dimana penarikan,seleksi dan penempatan, orientasi dan induksi untuk mendapatkan karyawan yang yangefektif dan efisien membantu tercapainya suatu tujuan perusahaan."
+      ]
+    },
+    {
+      "tag": "sdm_5",
+      "patterns": ["Jelaskan mengapa seleksi penerimaan pegawai baru sangat penting"],
+      "responses": [
+        "Menurut KonsulBot, Karna untuk mendapatkan calon karyawan sebanyak mungkin sehinggamemungkinkan pihak manajemen (recruiter) untuk memilih atau menyeleksi calon sesuaidengan kualifikasi yang dibutuhkan oleh sekolah. Semakin banyak calon yang berhasildikumpulkan maka akan semakin baik karena kemungkinan untuk mendapatkan calonterbaik akan semakin besar. Dan Hasil yang didapatkan dari proses rekrutmen adalahsejumlah tenaga kerja yang akan memasuki proses seleksi, yakni proses untuk menentukan kandidat yang mana yang paling layak untuk mengisi jabatan tertentu yangtersedia di sekolah. Seleksi adalah proses penentuan, pemilihan dan penetapan orangorang tertentu yang akan diterima sebagai tenaga baru/ pegawai setelah terlebih dahuludiadakan proses rekrutmen."
+      ]
+    },
+    {
+      "tag": "sdm_6",
+      "patterns": ["Apakah perlu test psikologi?"],
+      "responses": [
+        "tes psikologi penting karena sebagai alat saringan (filter) untuk mencari “yang baik dari yang buruk” ataupun mencari “yang terbaik dari yang baik”. Jadi. Maka TesPsikologi akan memperkecil jumlah yang perlu diproses lebih lanjut. Jadi, disinilah tesmembantu kita mengurangi jumlah orang yang perlu ditindak lanjuti."
+      ]
+    },
+    {
+      "tag": "sdm_7",
+      "patterns": ["Bagaimana pengaruh specification terhadap jumlah lamaran yang di terima suatu perusahan."],
+      "responses": [
+        "Specification terhadap Jumlah lamaran adalah semua pendapatan atau balas jasayang berbentuk uang atau berupa barang langsung atau tidak langsung yang diterima pegawai sebagai imbalan atas jasa yang diberikan kepada perusahaan/instansi. Di manainsentif yang diberikan perusahaan/instansi adalah sebagai salah satu usaha yangdilakukan untuk meningkatkan kinerja pegawai. Pemberian insentif yang tepat disamping untuk meningkatkan kinerja pegawai, dimaksudkan pula untuk membuat pegawai memiliki kesetiaan bekerja di instansi dan dapat menstabilkan perputaran tenagakerja"
+      ]
+    },
+    {
+      "tag": "sdm_8",
+      "patterns": ["Bagaimana Perusahaan Kecil mencoba untukmeningkatkan kesehatan dan kebugaran mental karyawan? apalagi untuk perusahaan yang kecil"],
+      "responses": [
+        "Menurut KonsulBot langkah yang akan diambil untuk membantukaryawan menangani stress kerja dan masalah pribadi diantaranya adalah dengancara konsultasi kepada bagian HRD (Human and Research Development) , atau dengan mengadakan acara gathering antar karyawan dengan karyawan maupunantara atasan dengan karyawan."
+      ]
+    },
+    {
+      "tag": "sdm_9",
+      "patterns": ["Bagaimana bisa manajer puncak sedikit peduli tentang SDM dibandingkan dengan bidang-bidang seperti pemasaran, keuangan, produksi,dan teknologi?"],
+      "responses": [
+        "Saat ini manajemen SDM berubah dan fungsi spesialisasi yang berdiri sendirimenjadi fungsi yang terintegrasi dengan seluruh fungsi lainnya di dalam organisasi,untuk bersama-sama mencapai sasaran yang sudah ditetapkan serta memiliki fungsi perencanaan yang sangat strategik dalam organisasi, dengan kata lain fungsi SDMlama menjadi lebih bersifat strategik. Oleh karena itu, manajemen SDM mempunyaikewajiban untuk memahami perubahan yang semakin komplek yang selalu terjadi dilingkungan bisnis. Ia juga harus mengantisipasi perubahan teknologi, danmemahami dimensi internasional yang mulai memasuki bisnis, akibat informasi yang berkembang cepat. Perubahan paradigma dari manajemen SDM tersebut telahmemberikan fokus yang berbeda dalam melaksanakan fungsinya didalamorganisasi. Ada kecenderungan untuk mengakui pentingnya SDM dalam organisasidan pemusatan perhatian pada kontribusi fungsi SDM bagi keberhasilan pencapaian tujuan strategi perusahaan. Hal ini dapat dilakukan perusahaan denganmengintegrasikan pembuatan keputusan strateginya dengan fungsi-fungsi SDM. Dengan demikian, maka akan semakin besar kesempatan untuk memperolehkeberhasilan."
+      ]
+    },
+    {
+      "tag": "sdm_10",
+      "patterns": ["Peran apa, yang harus dilakukan departemen HR dalam mengurangi kesenjangangaji antara pria dan wanita?"],
+      "responses": [
+        "Peran yang seharusnya dilakukan oleh departemen HR dalam mengurangikesenjangan gaji antara pria dan wanita adalah dengan cara tidak memberikandiskrimanisasi terhadap karyawan satu dengan yang lain meskipun gender merekaberbeda. Seharusnya departemen HR dapat berlaku adil kepada karyawan agar tidakterjadi kesenjangan atar karyawan."
+      ]
+    },
+    {
+      "tag": "sdm_11",
+      "patterns": ["Apakah perusahaan perlu melakukan pengembangan karir (carierplaning), bagi pekerjanya ?"],
+      "responses": [
+        "Menurut KonsulBot, perusahaan perlu melakukan carierplanning bagi pekerjanya karena pengembangan karir yang efektif menjadi harapan bagi karyawan. Melalui pengembangan karir efektif diharapkan dapat meminimalkan ketidakcocokan seorang dengan peran dan tanggung jawabnya dengan maksimal, jika di tempatkan sesuai dengan kemampuan maka karyawan akan bekerja dengan baik."
+      ]
+    },
+    {
+      "tag": "sdm_12",
+      "patterns": ["Apakah Tantangan Manajemen SDM di Era Digital?"],
+      "responses": [
+        "Terkait pemanfaatan teknologi dalam dunia HR, kamu perlu tahu kalau ada beberapa tantangan yang perlu diatasi. Tantangan tersebut di antaranya adalah Proses Perekrutan Karyawan Bertalenta Tinggi, Pengelolaan SDM yang Dimiliki Perusahaan, Keamanan Data Perusahaan, Peningkatan Soft Skill, dan Sistem Penilaian yang Kuantitatif"
+      ]
+    },
+    {
+      "tag": "sdm_13",
+      "patterns": ["Bagaimana cara Meningkatkan Kualitas SDM Perusahaan yang Sudah Ada?"],
+      "responses": [
+        "Ada banyak cara nih untuk meningkatkan kualitas SDM perusahaan yang sudah ada, diantaranya adalah Mengadakan Pelatihan Sesuai Bidang yang Didalami Karyawan, Memberikan Penghargaan Bagi Karyawan yang Berprestasi, Memberikan Kesempatan untuk Menempuh Pendidikan untuk Karyawan Potensial, Mengajak Karyawan Liburan untuk Menekan Angka Stres, Menghilangkan Sistem Senioritas dalam Perusahaan, dan masih banyak lagi."
+      ]
+    },
+    {
+      "tag": "sdm_14",
+      "patterns": ["Bagaimana cara Meningkatkan Kualitas SDM Karyawan Baru?"],
+      "responses": ["Menurut KonsulBot, ada 2 cara nih untuk meningkatkan kualitas SDM karyawan baru yaitu diantaranya adalah Buat Proses Rekrutmen Lebih Ketat dan Melakukan Penelusuran Bibit Unggul ke Sekolah dan Universitas Ternama"]
+    },
+    {
+      "tag": "sdm_15",
+      "patterns": ["Bagaimana cara manajemen sumber daya manusia untuk bisnis baru / UKM?"],
+      "responses": [
+        "Mengingat peran UKM yang krusial sebagai salah satu penopang perekonomian, para pelaku UKM harus bisa menunjukkan kualitas baik dari segi produk maupun sumber daya manusianya. Meskipun bisnis UKM Anda masih terbilang baru dan kecil, tidak ada alasan untuk tidak mengesampingkan kualitas dan peran SDM. Kontribusi SDM yang baik akan berdampak bagi kesuksesan merek dagang, kemampuan bersaing dan keberlangsungan UKM Anda kedepannya. Untuk membangun SDM yang berkualitas dan mampu berkontribusi secara maksimal, dibutuhkan langkah manajemen SDM yang terencana. Berikut langkahnya diantaranya Menentukan founding team, Merekrut karyawan baru dengan selektif, Memberi pelatihan SDM, Menyusun Standar Operasional Perusahaan, Membangun keterlibatan tenaga kerja, Pemberian remunerasi yang masuk akal, dan Melakukan evaluasi manajemen SDM"
+      ]
+    },
+    {
+      "tag": "finance_1",
+      "patterns": ["Mengapa manajer keuangan perlu berurusan dengan pasar keuangan?"],
+      "responses": [
+        "manajer keuangan harus terkait dengan pasar keuangan karena pasar keuangan adalah tempat untuk memenuhi permintaan dan sumber dana pasokan (baik pendek atau jangka panjang). Dan perusahaan membutuhkan dana untuk mengoperasikan perusahaan."
+      ]
+    },
+    {
+      "tag": "finance_2",
+      "patterns": ["Bagaimana cara menangani manajemen keuangan sederhana?"],
+      "responses": [
+        "Berikut Tips dari KonsulBot dalam menangani manajemen keuangan sederhana, diantaranya adalah Self-pendidikan, Lakukan perencanaan, Membuat notebook keuangan, Membuat anggaran biasa, Lihatlah arus kas keuangan, Putar arus kas tercepat, Gunakan keuntungan untuk mengembangkan bisnis, dan Pisahkan uang pribadi dan uang bisnis"
+      ]
+    },
+    {
+      "tag": "finance_3",
+      "patterns": ["Bagaimana jika perusahaan mendapatkan rugi terus menerus?"],
+      "responses": [
+        "Mengeluarkan perusahaan dari zona krisis tentunya butuh langkah terukur dan tepat dalam menangani kondisi internal maupun eksternal pada bisnis. Oleh karena itu, dalam mengatasi kerugian bisnis terdapat beberapa poin penting yang mesti Anda perhatikan. Berikut ini adalah beberapa tips mengelola perusahaan yang mengalami kerugian, antara lain Melakukan Evaluasi, Memperbaiki Sistem Bisnis, Melakukan Perubahan, dan yang terpenting Mengatur Keuangan"
+      ]
+    },
+    {
+      "tag": "finance_4",
+      "patterns": ["Hal apa yang harus diperhatikan dalam keuangan pada bisnis UMKM agar bisa bertahan lama?"],
+      "responses": [
+        "Mengelola keuangan benar dapat membuat uasaha sobat menjadi lebih stabil dan berkembang. Berikut tips dari KonsulBot dalam mengatur keuangan agar bisnis sobat dapat bertahan, diantaranya Pisahkan Keuangan Pribadi dan Bisnis, Buat Anggaran, Monitor Aset, Kelola Stok, Bayar Tagihan Tepat Waktu, dan Kurangi Pengeluaran yang Tidak Perlu"
+      ]
+    },
+    {
+      "tag": "finance_5",
+      "patterns": ["Apakah perlu, UMKM melakukan pencatatan keuangan?"],
+      "responses": [
+        "Menurut KonsulBot, sangat perlu nih UMKM melakukan pencatatan keuangan karena Setiap rincian biaya yang tercatat dalam laporan keuangan akan membantu UMKM untuk menentukan besaran harga produksi. UMKM juga akan terbantu dalam menghitung besaran untung dan rugi yang didapat. Jika tidak ada laporan keuangan, maka akan sulit untuk menentukan harga produksi dan mengetahui besaran untung rugi."
+      ]
+    },
+    {
+      "tag": "finance_6",
+      "patterns": ["Apakah perlu, UMKM melakukan pencatatan keuangan?"],
+      "responses": [
+        "Menurut KonsulBot, sangat perlu nih UMKM melakukan pencatatan keuangan karena Setiap rincian biaya yang tercatat dalam laporan keuangan akan membantu UMKM untuk menentukan besaran harga produksi. UMKM juga akan terbantu dalam menghitung besaran untung dan rugi yang didapat. Jika tidak ada laporan keuangan, maka akan sulit untuk menentukan harga produksi dan mengetahui besaran untung rugi."
+      ]
+    },
+    {
+      "tag": "finance_7",
+      "patterns": ["Bagaimana cara membagi modal dan laba dalam suatu bisnis?"],
+      "responses": [
+        "KonsulBot ada tips nih bagaimana cara membagi modal dan laba dalam suatu bisnis apalagi UMKM. Intinya jangan keburu-buru dalam mengambil laba tersebut, usahakan laba tersebut terus berputar dan digunakan untuk expansion bisnis agar keuntungan bisnis akan terus meningkat."
+      ]
+    },
+    {
+      "tag": "finance_8",
+      "patterns": ["Metode apa yang dapat digunakan dalam menilai tingkat kesehatan perusahaan?"],
+      "responses": [
+        "Analisis rasio keuangan berfungsi sebagai penentu kinerja perusahaan yang digunakan oleh manajemen perusahaan. Sementara itu, analisis rasio keuangan bagi para investor berfungsi untuk menentukan tempat investasi berdasarkan kondisi keuangan perusahaan yang akan digunakan sebagai tempat investasi. Sebuah perusahaan bisa dibilang dalam kondisi yang baik jika memiliki empat indikator yang bisa diketahui melalui laporan keuangan sebagai berikut Rasio Likuiditas, Rasio Profitabilitas, Rasio Solvabilitas, dan Rasio Aktivitas."
+      ]
+    },
+    {
+      "tag": "finance_9",
+      "patterns": ["Kapan pelaku bisnis UMKM dinilai harus meminjam bank?"],
+      "responses": [
+        "Menurut KonsulBot, pelaku bisnis bisa meminjam bank saat mereka sudah benar-benar berjalan baik secara bisnis keseluruhan karena bank mayoritas tidak memberikan pendanaan kepada bisnis UMKM karena Aspek Risiko, Kurang Menguntungkan, Tidak Punya Jaminan, Administrasi Keuangan Tidak Memadai, Legalitas Usaha, serta Belum Berpengalaman"
+      ]
+    },
+    {
+      "tag": "finance_10",
+      "patterns": ["Apakah perusahaan perlu meminjam bank untuk melakukan usahanya?"],
+      "responses": [
+        "Menurut KonsulBot itu tergantung perusahaannya. tetapi saran dari KonsulBot lebih baik meminjam uang bank karena hal tersebut mampu memberikan tekananan dan dorongan perusahaan untuk bisa mengembalikan hutang tersebut sehingga bisnis yang dijalankan diharuskan untuk meraih keuntungan."
+      ]
+    },
+    {
+      "tag": "finance_11",
+      "patterns": ["Kenapa laba yg di dapat tidak sebanding dengan penambahan kas yang di terima oleh perusahaan?"],
+      "responses": [
+        "Menurut KonsulBot hal tersebut dikarenakan Perputaran persediaan perusahaan yang tidak lancer, artinya lebih banya belanja persediaan di bandingkan penjualan yang di lakukan sehingga uang yang di terima dari penjualan keluar semua untuk pembelian bahkan bisa defisi kas yang mengurangi kas tahun sebelumnya"
+      ]
+    },
+    {
+      "tag": "finance_12",
+      "patterns": ["Bagaimana cara menentukan anggaran pengeluaran setiap bulan dalam suatu perusahaan?"],
+      "responses": ["Dengan cara perusahaan tersebut membuat perencanaan keuangan yg relevan dalam operasi perusahaan nya , kemudian dapat mengontrol pengelolaan setiap aktivitas dalam operasional perusahaan tersebut"]
+    },
+    {
+      "tag": "finance_13",
+      "patterns": ["Bagaimana cara membagi dividen?"],
+      "responses": [
+        "pembagian dividen saham yang ideal biasanya dilakukan setiap akhir periode laporan keuangan. Perusahaan selaku emiten biasanya akan memberitahukan waktu pembagian dividen kepada para pemegang saham. Untuk melakukan pembagian dividen, perusahaan harus memiliki laba positif. Artinya, perusahaan memiliki keuntungan bersih dalam tahun buku berjalan yang sudah menutup akumulasi kerugian dari tahun buku sebelumnya. Selain itu, perusahaan juga perlu menyisihkan laba bersih tiap tahunnya untuk cadangan atau kas sampai 20 persen dari jumlah modal ditempatkan dan disetor."
+      ]
+    },
+    {
+      "tag": "finance_14",
+      "patterns": ["Jika perusahaan memberikan reward karyawan, darimana uang itu berasal?"],
+      "responses": [
+        "Menurut KonsulBot ada 2 hal nih yang perlu diperhatikan, reward itu berupa bonus atau insentif. Walaupun sama-sama sebagai dana kompensasi yang diberikan perusahaan atas pekerjaan setiap karyawan, bonus dan insentif ini memiliki perbedaan dari cara pemberiannya. Bonus adalah pembayaran yang dilakukan oleh perusahaan kepada karyawan dari hasil keuntungan. Bonus juga berasal dari pencapaian target produksi atau lebih besar dari target normal perusahaan yang diberikan kepada karyawan. Bonus ini sifatnya tidak wajib dan sesuai kesepakatan antara perusahaan dengan karyawan di awal. Sedangkan insentif adalah bayaran atas pencapaian target atau melebihi target perusahaan yang diberikan kepada karyawan. Insentif ini diberikan agar memacu kinerja setiap karyawan dalam meraih target yang diberikan oleh perusahaan. Pembayaran insentif diberikan kepada karyawan ketika pihak yang memberikan keuntungan atau klien telah dibayarkan kepada perusahaan. Pada dasarnya, perbedaan ini tidak begitu berpengaruh pada nilai yang diberikan. Hanya saja ketentuan dari pemberian bonus dan insentif ini memiliki perbedaan yang sesuai dengan kebijakan perusahaan"
+      ]
+    },
+    {
+      "tag": "finance_15",
+      "patterns": ["Manakah yang harus dibayar terlebih dahulu, hutang jangka pendek atau jangka panjang?"],
+      "responses": [
+        "hutang jangka panjang dan hutang jangka pendek merupakan sebuah hutang dimana harus dibayarkan tepat waktu jika jatuh tempo masa hutangnya. Sebuah perusahaan atau seseorang wajib menerapkan sebuah perhitungan yang tepat mengenai sistem keuangan agar selanjutnya tidak terjadi kesalahan yang menyebabkan kerugian yang signifikan. Untuk memantau usia hutang dan proses finansial secara keseluruhan, Anda harus melakukan pencatatan pembukuan untuk memastikan bahwa seluruh data keuangan Anda terpantau dengan optimal. Hindari pembukuan manual yang memakan waktu dan berpotensi pada kesalahan pencatatan yang dapat merugikan usaha. Anda bisa mencoba menggunakan software akuntansi Accurate Online untuk optimalisasi proses pencatatan dan pembukuan usaha Anda."
+      ]
+    }
+  ]
+}
